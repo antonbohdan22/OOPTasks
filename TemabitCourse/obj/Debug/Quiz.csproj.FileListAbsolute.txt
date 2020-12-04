@@ -1,0 +1,7 @@
+D:\TemabitCourse\FirstApp\TemabitCourse\bin\Debug\TemabitCourse.exe.config
+D:\TemabitCourse\FirstApp\TemabitCourse\bin\Debug\TemabitCourse.exe
+D:\TemabitCourse\FirstApp\TemabitCourse\bin\Debug\TemabitCourse.pdb
+D:\TemabitCourse\FirstApp\TemabitCourse\obj\Debug\Quiz.csprojAssemblyReference.cache
+D:\TemabitCourse\FirstApp\TemabitCourse\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
+D:\TemabitCourse\FirstApp\TemabitCourse\obj\Debug\TemabitCourse.exe
+D:\TemabitCourse\FirstApp\TemabitCourse\obj\Debug\TemabitCourse.pdb

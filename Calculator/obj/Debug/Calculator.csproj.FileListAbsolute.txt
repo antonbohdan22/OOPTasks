@@ -1,0 +1,7 @@
+D:\TemabitCourse\FirstApp\Calculator\bin\Debug\Calculator.exe.config
+D:\TemabitCourse\FirstApp\Calculator\bin\Debug\Calculator.exe
+D:\TemabitCourse\FirstApp\Calculator\bin\Debug\Calculator.pdb
+D:\TemabitCourse\FirstApp\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+D:\TemabitCourse\FirstApp\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\TemabitCourse\FirstApp\Calculator\obj\Debug\Calculator.exe
+D:\TemabitCourse\FirstApp\Calculator\obj\Debug\Calculator.pdb

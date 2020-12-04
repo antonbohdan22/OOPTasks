@@ -1,0 +1,7 @@
+D:\TemabitCourse\FirstApp\DeveloperArray\bin\Debug\DeveloperArray.exe.config
+D:\TemabitCourse\FirstApp\DeveloperArray\bin\Debug\DeveloperArray.exe
+D:\TemabitCourse\FirstApp\DeveloperArray\bin\Debug\DeveloperArray.pdb
+D:\TemabitCourse\FirstApp\DeveloperArray\obj\Debug\DeveloperArray.csprojAssemblyReference.cache
+D:\TemabitCourse\FirstApp\DeveloperArray\obj\Debug\DeveloperArray.csproj.CoreCompileInputs.cache
+D:\TemabitCourse\FirstApp\DeveloperArray\obj\Debug\DeveloperArray.exe
+D:\TemabitCourse\FirstApp\DeveloperArray\obj\Debug\DeveloperArray.pdb
