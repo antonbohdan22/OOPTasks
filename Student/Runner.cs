@@ -22,7 +22,7 @@ namespace Student
 
             Console.WriteLine("Skills:");
 
-            for(int i = 0; i < student.Skills.DevArray.Length; i++) 
+            for (int i = 0; i < student.Skills.DevArray.Length; i++)
             {
                 Console.WriteLine(student.Skills.DevArray[i]);
             }
