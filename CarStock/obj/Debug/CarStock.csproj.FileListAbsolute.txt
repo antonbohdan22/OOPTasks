@@ -1,7 +1,0 @@
-D:\TemabitCourse\FirstApp\CarStock\bin\Debug\CarStock.exe.config
-D:\TemabitCourse\FirstApp\CarStock\bin\Debug\CarStock.exe
-D:\TemabitCourse\FirstApp\CarStock\bin\Debug\CarStock.pdb
-D:\TemabitCourse\FirstApp\CarStock\obj\Debug\CarStock.csprojAssemblyReference.cache
-D:\TemabitCourse\FirstApp\CarStock\obj\Debug\CarStock.csproj.CoreCompileInputs.cache
-D:\TemabitCourse\FirstApp\CarStock\obj\Debug\CarStock.exe
-D:\TemabitCourse\FirstApp\CarStock\obj\Debug\CarStock.pdb

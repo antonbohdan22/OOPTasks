@@ -1,6 +1,0 @@
-D:\TemabitCourse\FirstApp\BookStore\bin\Debug\BookStore.exe.config
-D:\TemabitCourse\FirstApp\BookStore\bin\Debug\BookStore.exe
-D:\TemabitCourse\FirstApp\BookStore\bin\Debug\BookStore.pdb
-D:\TemabitCourse\FirstApp\BookStore\obj\Debug\BookStore.csproj.CoreCompileInputs.cache
-D:\TemabitCourse\FirstApp\BookStore\obj\Debug\BookStore.exe
-D:\TemabitCourse\FirstApp\BookStore\obj\Debug\BookStore.pdb
