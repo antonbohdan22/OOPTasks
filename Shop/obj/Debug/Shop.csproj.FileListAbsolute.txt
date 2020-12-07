@@ -1,0 +1,7 @@
+D:\TemabitCourse\FirstApp\Shop\bin\Debug\Shop.exe.config
+D:\TemabitCourse\FirstApp\Shop\bin\Debug\Shop.exe
+D:\TemabitCourse\FirstApp\Shop\bin\Debug\Shop.pdb
+D:\TemabitCourse\FirstApp\Shop\obj\Debug\Shop.csprojAssemblyReference.cache
+D:\TemabitCourse\FirstApp\Shop\obj\Debug\Shop.csproj.CoreCompileInputs.cache
+D:\TemabitCourse\FirstApp\Shop\obj\Debug\Shop.exe
+D:\TemabitCourse\FirstApp\Shop\obj\Debug\Shop.pdb
