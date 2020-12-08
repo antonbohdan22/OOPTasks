@@ -1,0 +1,2 @@
+D:\TemabitCourse\FirstApp\Weapon\obj\Debug\Weapon.csprojAssemblyReference.cache
+D:\TemabitCourse\FirstApp\Weapon\obj\Debug\Weapon.csproj.CoreCompileInputs.cache

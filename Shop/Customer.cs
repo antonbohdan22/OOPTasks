@@ -12,10 +12,7 @@ namespace Shop
         protected double cash;
         protected List<Product> cart;
 
-        public Customer()
-        {
-            cart = new List<Product>();
-        }
+        public Customer() => cart = new List<Product>();
 
         public Customer(string name, double cash)
         {
@@ -23,6 +20,7 @@ namespace Shop
             this.cash = cash;
             cart = new List<Product>();
         }
+
         public void Buy(Product product, int quantity)
         {
             if (product.Quantity >= quantity)

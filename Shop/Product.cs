@@ -19,15 +19,9 @@ namespace Shop
             this.quantity = quantity;
         }
 
-        public string Name
-        {
-            get { return name; }
-        }
+        public string Name => name;
 
-        public double Price
-        {
-            get { return price; }
-        }
+        public double Price => price;
 
         public int Quantity
         {

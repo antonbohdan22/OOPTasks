@@ -1,0 +1,6 @@
+D:\TemabitCourse\FirstApp\Heroes\bin\Debug\Heroes.exe.config
+D:\TemabitCourse\FirstApp\Heroes\bin\Debug\Heroes.exe
+D:\TemabitCourse\FirstApp\Heroes\bin\Debug\Heroes.pdb
+D:\TemabitCourse\FirstApp\Heroes\obj\Debug\Heroes.csproj.CoreCompileInputs.cache
+D:\TemabitCourse\FirstApp\Heroes\obj\Debug\Heroes.exe
+D:\TemabitCourse\FirstApp\Heroes\obj\Debug\Heroes.pdb
