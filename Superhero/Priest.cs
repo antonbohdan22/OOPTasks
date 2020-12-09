@@ -27,6 +27,18 @@ namespace Superhero
             else hero.Energy -= energyAmount;
             return this;
         }
+        public Priest GiveBigEnergyPotion(Hero hero)
+        {
+            if (hero.HeroType == Type.Kind) hero.Energy += (byte)(energyAmount * 2);
+            else hero.Energy -= (byte)(energyAmount * 2);
+            return this;
+        }
+        public Priest GiveSmallEnergyPotion(Hero hero)
+        {
+            if (hero.HeroType == Type.Kind) hero.Energy += (byte)(energyAmount / 2);
+            else hero.Energy -= (byte)(energyAmount / 2);
+            return this;
+        }
 
     }
 }

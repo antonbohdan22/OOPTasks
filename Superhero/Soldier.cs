@@ -61,7 +61,7 @@ namespace Superhero
             {
                 if (currentWeapon.CurrentMagazineBulletsQuantity == 0)
                 {
-                    Console.WriteLine("{0} is out of bullets. Press 'R' to reload or 'S' for switching to another weapon.");
+                    Console.WriteLine("{0} is out of bullets. Press 'R' to reload or 'S' for switching to another weapon.", currentWeapon.Name);
                     do
                     {
                         ConsoleKey pressedKey = Console.ReadKey().Key;

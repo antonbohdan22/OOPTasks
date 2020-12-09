@@ -50,10 +50,8 @@ namespace Superhero
 
 
             Priest priest = new Priest("Jinny", Hero.Sex.Female, Hero.Type.Kind, 30);
-            Console.WriteLine(soldier1.Energy);
-            priest.GiveEnergyPotion(soldier1);
-            Console.WriteLine(soldier1.Energy);
-
+            priest.GiveBigEnergyPotion(soldier2);
+            soldier2.BurstShooting(30);
             Console.ReadKey();
         }
     }

@@ -18,7 +18,7 @@ namespace Shop
 
             Shop shop = new Shop(products);
             shop.AddProduct(new Product("Juice", 1.35, 22))
-        .AddProduct(new Product("Beer", 0.99, 40));
+            .AddProduct(new Product("Beer", 0.99, 40));
 
             List<Customer> customers = new List<Customer>();
             customers.Add(new Customer("Anton", 25));

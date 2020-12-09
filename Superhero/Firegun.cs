@@ -29,7 +29,7 @@ namespace Superhero
 
         public void Reload()
         {
-            Console.WriteLine("I'm reloading. Cover me.");
+            Console.WriteLine("\nI'm reloading. Cover me.");
             for (int i = reloadingTime; i > 0; i--)
             {
                 Console.WriteLine(i);
