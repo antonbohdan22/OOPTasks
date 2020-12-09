@@ -23,10 +23,15 @@ namespace Shop
 
         public double Price => price;
 
-        public int Quantity
+        public int Quantity => quantity;
+
+        public void DecreaseQuantityBy(int quantity)
         {
-            get { return quantity; }
-            set { quantity = value; }
+            this.quantity -= quantity;
+        }
+        public void IncreaseQuantityBy(int quantity)
+        {
+            this.quantity += quantity;
         }
 
         override

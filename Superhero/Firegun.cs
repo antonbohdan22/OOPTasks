@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace Weapon
+namespace Superhero
+
 {
     public abstract class Firegun : IWeapon
     {
@@ -12,6 +13,7 @@ namespace Weapon
         protected int magazineCapacity;
         protected int currentMagazineBulletsQuantity;
         protected int reloadingTime;
+        protected bool burstShooting;
 
         public string Name => name;
 
@@ -20,6 +22,8 @@ namespace Weapon
         public int CurrentMagazineBulletsQuantity => currentMagazineBulletsQuantity;
 
         public int ReloadingTime => reloadingTime;
+
+        public bool BurstShooting => burstShooting;
 
         public abstract void Attack();
 
@@ -36,4 +40,4 @@ namespace Weapon
     }
 
 }
-}
+

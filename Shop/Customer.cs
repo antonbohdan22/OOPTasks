@@ -21,24 +21,29 @@ namespace Shop
             cart = new List<Product>();
         }
 
-        public void Buy(Product product, int quantity)
+        public Customer Buy(Product product, int quantity)
         {
+            if(quantity <= 0)
+            {
+                Console.WriteLine("Quantity must be >= 0");
+            }
             if (product.Quantity >= quantity)
             {
                 if (cash >= (product.Price * quantity))
                 {
                     cart.Add(new Product(product.Name, product.Price, quantity));
-                    product.Quantity -= quantity;
+                    product.DecreaseQuantityBy(quantity);
                     cash -= (product.Price * quantity);
 
                     if (product.Quantity == 0) Shop.Products.Remove(product);
                 }
-                else Console.WriteLine("Not enough funds");
+                else Console.WriteLine("Sorry, {0}, you do not have sufficient funds to buy {1}", name, product.Name);
             }
             else Console.WriteLine("There is no such many positions of this product available in the shop");
+            return this;
         }
 
-        public void Checkout()
+        public Customer Checkout()
         {
             double sum = 0;
             Console.WriteLine("Customer {0}'s Checkout:", name);
@@ -48,6 +53,7 @@ namespace Shop
                 sum += product.Price * product.Quantity;
             }
             Console.WriteLine("Total: {0} \nCharge: {1}", sum, cash);
+            return this;
         }
 
         public string Name

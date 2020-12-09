@@ -13,11 +13,18 @@ namespace Shop
         public Shop() => products = new List<Product>();
         public Shop(List<Product> products) => Shop.products = products;
 
+        public static List<Product> Products => products;
 
-        public static List<Product> Products
+        public Shop AddProduct(Product product)
         {
-            get { return products; }
-            set { products = value; }
+            products.Add(product);
+            return this;
+        }
+
+        public Shop AddProducts(params Product[] products)
+        {
+            foreach (Product product in products) AddProduct(product);
+            return this;
         }
     }
 }

@@ -4,21 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace Weapon
+namespace Superhero
 {
-    public class Pistol : Firegun
+    class Rifle : Firegun
     {
-        public Pistol(string name, int magazineCapacity, int currentMagazineBulletsQuantity, int reloadingTime)
+        public Rifle(string name, int magazineCapacity, int currentMagazineBulletsQuantity, int reloadingTime, bool burstShooting)
         {
             this.name = name;
             this.magazineCapacity = magazineCapacity;
             this.currentMagazineBulletsQuantity = currentMagazineBulletsQuantity;
             this.reloadingTime = reloadingTime;
+            this.burstShooting = burstShooting;
         }
 
         public override void Attack()
         {
-            Console.WriteLine("PUFF-PUFF-PUFF");
-        }
+            Console.WriteLine("PUFF");
+            currentMagazineBulletsQuantity--;
+        }       
     }
 }

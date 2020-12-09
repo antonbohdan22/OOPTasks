@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Heroes
+namespace Superhero
 {
     public abstract class Hero
     {
@@ -21,7 +21,9 @@ namespace Heroes
             energy = 100;
         }
 
-        private byte Clamp(byte value, byte min, byte max)
+        public abstract void Greeting();
+
+        protected byte Clamp(byte value, byte min, byte max)
         {
             return (value < min) ? min : (value > max) ? max : value;
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Weapon
+namespace Superhero
 {
     public interface IWeapon
     {
