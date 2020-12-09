@@ -1,7 +1,0 @@
-D:\TemabitCourse\FirstApp\Superheroes\bin\Debug\Superheroes.exe.config
-D:\TemabitCourse\FirstApp\Superheroes\bin\Debug\Superheroes.exe
-D:\TemabitCourse\FirstApp\Superheroes\bin\Debug\Superheroes.pdb
-D:\TemabitCourse\FirstApp\Superheroes\obj\Debug\Heroes.csprojAssemblyReference.cache
-D:\TemabitCourse\FirstApp\Superheroes\obj\Debug\Heroes.csproj.CoreCompileInputs.cache
-D:\TemabitCourse\FirstApp\Superheroes\obj\Debug\Superheroes.exe
-D:\TemabitCourse\FirstApp\Superheroes\obj\Debug\Superheroes.pdb
